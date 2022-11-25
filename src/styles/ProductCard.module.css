@@ -1,0 +1,28 @@
+.productCard {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.head {
+  font-weight: 600;
+}
+.desc {
+  font-size: 0.9em;
+}
+.input {
+  width: 5em;
+}
+.button {
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.addMenu {
+  align-self: flex-end;
+  display: flex;
+  gap: 10px;
+}

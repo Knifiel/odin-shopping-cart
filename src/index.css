@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.nav-primary {
+  padding-left: 1em;
+  display: flex;
+  gap: 1em;
+  background-color: aliceblue;
+  height: 2em;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.active {
+  font-weight: bold;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.nav-shop {
+  padding-left: 2em;
+  display: flex;
+  gap: 2em;
+  background-color: antiquewhite;
+  height: 2em;
+  align-items: center;
+}
+
+.productList {
+  list-style: none;
+  padding-left: 1em;
+}
+.productList > li {
+  margin-bottom: 1em;
+}
+
+.cart {
+  padding-left: 1em;
+  padding-top: 1em;
+  width: fit-content;
+}
+.product {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.3em;
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+.cart button {
+  margin-left: 2em;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+.checkout {
+  font-size: larger;
+  pointer-events: none;
+  color: grey;
+}
